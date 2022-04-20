@@ -8,10 +8,10 @@ template.innerHTML = `
             <p id = "seckontakt-paragraph" class = "p">Podívejte se na naše další sítě nebo nás kontaktujte s jakýmkoli dotazem!</p>
             <div id = "seckontakt-odkazy-a-legalinfo-div">
                 <ul id = "seckontakt-odkazy" class = "p">
-                  <li id = "phone"><img src = "/images/icons/enviconfooter.svg"><p>@podlahy-sucharda</p></li>  
-                  <li id = "fb"><img src = "/images/icons/fbiconfooter.svg"><p>fb.com/podlahy-sucharda</p></li>  
-                  <li id = "email"><img src = "/images/icons/igiconfooter.svg"><p>info@podlahy-sucharda.cz</p></li>  
-                  <li id = "ig"><img src = "/images/icons/phoneiconfooter.svg"><p>+420 728 428 188</p></li>  
+                  <li id = "phone"><img src = "images/icons/enviconfooter.svg"><p>@podlahy-sucharda</p></li>  
+                  <li id = "fb"><img src = "images/icons/fbiconfooter.svg"><p>fb.com/podlahy-sucharda</p></li>  
+                  <li id = "email"><img src = "images/icons/igiconfooter.svg"><p>info@podlahy-sucharda.cz</p></li>  
+                  <li id = "ig"><img src = "images/icons/phoneiconfooter.svg"><p>+420 728 428 188</p></li>  
                 </ul>
                 <ul id = "seckontakt-legalinfo" class = "p">
                     <li><p>Lukáš Sucharda</p></li>

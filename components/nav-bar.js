@@ -6,7 +6,7 @@ template.innerHTML = `
 <header id = "header-wide"> 
     <p id = "logo" class = "logo b">PODLAHY<br>SUCHARDA</p>
     <div id = "nav-mobile">
-        <img id = "nav-burger" src = "/images/icons/nav-burger.svg">
+        <img id = "nav-burger" src = "images/icons/nav-burger.svg">
         <h2 id = "page-name" class = "b">ÚVOD</h2>
     </div>
     <nav id = "nav">
