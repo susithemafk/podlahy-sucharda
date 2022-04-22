@@ -1,15 +1,15 @@
 #section-o-nas {
-    margin-top: 10vh;
+    margin-top: 50px;
     width: 70%;
     border-radius: 0 50px 50px 0;
-    padding: 2vw
+    padding: 20px;
 }
 #seconas-o-nas {
-    padding: 0 0% 0% 15%;
+    padding: 0 0 0 50px;
+    line-height: 100%;
 }
 #seconas-paragraph {
-    padding: 0 7.5% 0 15%;
-    margin-top: -1%;
+    padding: 0 20px 0 50px;
 }
 
 @media only screen and (max-width: 500px) {

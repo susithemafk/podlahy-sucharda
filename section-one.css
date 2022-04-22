@@ -3,12 +3,11 @@
     flex-direction: column;
     height: 80vh;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 50px;
 }
 #secone-podlahy-sucharda {
     color: white;
-    /* line-height: 80%; */
-    padding-top: 8%;
+    padding-top: 40px;
     text-align: end;
 }
 #secone-odkazy {
@@ -54,7 +53,6 @@
 }
 #secone-odkazy .button span {
     font-size: 15px;
-    font-weight: 500;
     line-height: 60px;
     margin-left: 10px;
     color: white;
@@ -68,27 +66,30 @@
     width: 100%;
     margin: 0 auto;
     font-size: 4vw;
+    font-size: 50px;
 
 }
 
 @media only screen and (max-width: 500px) {
     #sectionone {
-        height: 50vh;
+        height: 60vh;
+        padding: 0;
     }
     #secone-podlahy-sucharda {
         text-align: center;
         margin-top: 30vh;
-        font-size: 13vw;
+        font-size: 50px;
     }
     #secone-nazev-stranky {
         display: none;
     }
     
     #secone-odkazy {
-        display: none;
+        /* display: none; */
+        align-self: center;
+        padding: 0;
     }
     #secone-textpodsockama {
-        /* margin-top: 30vh; */
-        font-size: 5vw;
+        font-size: 20px;
     }
 }

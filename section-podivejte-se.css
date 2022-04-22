@@ -8,8 +8,10 @@
     flex-direction: column;
 }
 #section-podivejte-se div p {
+    font-size: 20px;
+
     text-align: center;
-    margin: 2% 0 1%;
+    margin: 10px 0 5px;
 }
 #section-podivejte-se div button {
     margin: 0 auto;
@@ -27,6 +29,6 @@
 @media only screen and (max-width: 500px) {
     #section-podivejte-se div p {
         margin: 5% 0 0%;
-        font-size: 4vw;
+        font-size: 15px;
     }
 }

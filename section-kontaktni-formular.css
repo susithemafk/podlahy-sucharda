@@ -1,5 +1,32 @@
-#section-kontaktni-formular {
+#seckontaktni-formular-inputy input, select, textarea { /*TEXTY*/
+    font-size: 10px;
+    margin: 3px;
+    padding: 3px 50px 3px 15px;
+}
+#seckontaktni-formular-submit { /*BUTTON*/
+    font-size: 15px;
+    margin: 10px auto;
+    padding: 0 25px;
+}
+#seckontaktni-formular-infopod { /*INFOPOD*/
+    font-size: 10px;
+}
+@media only screen and (max-width: 500px) {
+    #seckontaktni-formular-inputy input, select, textarea { /*TEXTY*/
+        font-size: 12px;
+    }
+    #seckontaktni-formular-submit { /*BUTTON*/
+        font-size: 15px;
+    }
+    #seckontaktni-formular-infopod { /*INFOPOD*/
+        font-size: 7px;
+        margin-bottom: 8px;
+    }
+}
 
+
+
+#section-kontaktni-formular {
     display: flex;
     margin: 5% 15%;
     padding: 2% 5% 1%;
@@ -13,9 +40,6 @@
     flex-direction: column;
 }
 #seckontaktni-formular-inputy input, select, textarea {
-    font-size: 10px;
-    margin: 3px;
-    padding: 3px 50px 3px 15px;
     border-radius: 10px;
     border: 0;
     background-color: rgba(255, 255, 255, 0.512);
@@ -30,13 +54,9 @@
     outline: solid 2px rgb(98, 70, 1);
 }
 #seckontaktni-formular-submit { /*BUTTON*/
-    margin: 10px auto;
     /* width: 20%; */
     background-color: black;
     border-radius: 150px;
-    font-size: 15px;
-    font-weight: 300;
-    padding: 0 4%;
 }
 select {
     border-right: 16px solid transparent;
@@ -52,25 +72,10 @@ select option {
 textarea {
     resize: none;
 }
-#seckontaktni-formular-infopod {
-    font-size: 10px;
-}
 
 @media only screen and (max-width: 500px) {
     #section-kontaktni-formular {
         display: flex;
-        margin: 5% 2%;
-    }
-    #seckontaktni-formular-inputy input, select, textarea {
-        font-size: 12px;
-    }
-    #seckontaktni-formular-submit { /*BUTTON*/
-        margin: 10px auto;
-        font-size: 1rem;
-        padding: 0 5%;
-    }
-    #seckontaktni-formular-infopod {
-        font-size: 0.5rem;
-        margin-bottom: 8px;
+        margin: 50px 10px;
     }
 }
