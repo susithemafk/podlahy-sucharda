@@ -6,19 +6,32 @@
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
-    padding: 0 50px;
     padding-top: 20vh;
 }
 #secone-podlahy-sucharda {
+    position: relative;
     color: white;
-    padding-top: 40px;
+    padding-top: 75px;
     text-align: start;
     align-self: flex-end;
+    padding-right: 175px;
 }
 #secone-nazev-stranky {
     align-self: flex-start;
+    position: relative;
+    padding-left: 175px;
 }
 #secone-odkazy {
+    align-self: flex-end;
+    padding-right: 175px;
+
+}
+#secone-odkazy img {
+    height: 100px;
+    width: 100px;
+    margin: 0 5px;
+}
+/* #secone-odkazy {
     align-self: flex-end;
     padding-right: 30vw;
 }
@@ -68,13 +81,13 @@
     width: 0;
     opacity: 0;
     margin-top: -8px;
-}
+} */
 #secone-textpodsockama {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    font-size: 4vw;
     font-size: 50px;
+    font-size: 5vw;
     margin-bottom: 20px;
 }
 

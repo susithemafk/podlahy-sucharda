@@ -1,0 +1,25 @@
+.section-zajima-vas-card:nth-child(1) {background-color: #FF8408;}
+#section-zajima-vas-zajima-vas {
+    text-align: center;
+}
+.section-zajima-vas-card {
+    padding: 30px 30px 0;
+    height: 300px;
+    flex-direction: column;
+    gap: 0;
+}
+
+#section-zajima-vas-bg {
+    height: 100vw;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -550px;
+    background-image: url(images/icons/bluebg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#section-zajima-vas h3 {
+    text-align: center;
+    margin: 250px 0 50px;
+}

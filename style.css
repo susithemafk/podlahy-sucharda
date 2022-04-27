@@ -23,10 +23,13 @@ body {
 .b {font-family: Basement Grotesque;}
 .m {font-family: Microsoft Yi Baiti;}
 .ms {font-family: Montserrat;}
-h1 {font-size: 6vw;}
-h2 {font-size: 6vw}
-h3 {font-size: 4.4vw}
+h1 {font-size: 4.5vw;}
+h2 {font-size: 6vw;}
+h3 {font-size: 4.4vw;}
 p {font-size: 1.9vw;}
+.fskarta {font-size: 1.5vw;}
+.fskarta-cislo {font-size: 6vw; line-height: 100%;}
+
 .logo {line-height: 80%}
 .fw100 {font-weight: 100;}
 .fw200 {font-weight: 200;}
@@ -38,6 +41,35 @@ p {font-size: 1.9vw;}
 .bg30 {background-color: rgba(255, 255, 255, 0.3);}
 .bgbrgr {background-image: url(images/browngradient.jpg);
   background-size: cover;}
+  
+#section-zajima-vas h4 {font-size: 2vw;}
+.cards {
+  padding: 0 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.card {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  height: 240px;
+  width: 425px;
+  border-radius: 35px;
+  background-color: rgba(24, 6, 5, 0.8);
+}
+.card-button {
+  border-radius: 10px;
+  position: absolute;
+  margin: 0 40px 20px 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255, 0.15);
+}
+.card:nth-child(1) .card-button {background-color: rgba(169, 20, 20, 0.15);}
+
 
 button {
     font-family: Poppins; 
