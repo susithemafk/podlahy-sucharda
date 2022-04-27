@@ -28,10 +28,10 @@
 
 #section-kontaktni-formular {
     display: flex;
-    margin: 5% 15%;
-    padding: 2% 5% 1%;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
+    margin: 5% 5%;
+    padding: 2% 15% 1%;
+    background-color: #500101;
+    border-radius: 30px;
     flex-direction: column;
     text-align: center;
 }
